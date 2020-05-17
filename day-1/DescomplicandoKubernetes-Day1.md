@@ -497,11 +497,11 @@ Pronto!!! Agora temos um cluster com 3 nodes trabalhando, e as possibilidades s�
 
 Para saber mais detalhes acesse as documentações oficiais do k3s:
 
-https://k3s.io/
+<https://k3s.io/>
 
-https://rancher.com/docs/k3s/latest/en/
+<https://rancher.com/docs/k3s/latest/en/>
 
-https://github.com/rancher/k3s
+<https://github.com/rancher/k3s>
 
 # Instalação em cluster com três nós
 
@@ -1138,7 +1138,7 @@ spec:
        containers:
        - image: nginx
          imagePullPolicy: Always
-         ports: 
+         ports:
          - containerPort: 80
          name: nginx
          resources: {}
